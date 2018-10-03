@@ -18,6 +18,10 @@ $second-font: 'Spirax', cursive;
     background-color: $main-color;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     @include body-part;
 }
