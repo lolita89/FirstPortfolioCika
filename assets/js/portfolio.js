@@ -28,7 +28,6 @@ email.addEventListener("input", function () {
     }
 });
 
-
 phone.addEventListener("input", function () {
     if (phone.validity.patternMismatch) {
         phone.setCustomValidity("Dutch phone number, please :)");
