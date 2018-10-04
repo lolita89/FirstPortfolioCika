@@ -1,3 +1,3 @@
 # portfolio-cika
 
-Let's check my own portfolio website from this project here http://labored-wrench.surge.sh/
+This is the webpage I made myself with HTML5, CSS3, SCSS, and vanila Javascript. I sometimes update and develop with the new features as I learn something more.
