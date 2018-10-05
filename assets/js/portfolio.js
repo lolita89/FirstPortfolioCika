@@ -1,9 +1,9 @@
 var email = document.getElementById("email");
-var phone = document.getElementById("phone")
+var phone = document.getElementById("phone");
 var twitterName = document.getElementById("twitname");
 var form = document.getElementsByTagName('form');
 
-var boxesPortofolio = `<div class="port-box">test</div>`
+var boxesPortofolio = `<div class="port-box">test</div>`;
 
 //nav responsive function
 function responsiveNav() {
@@ -13,7 +13,7 @@ function responsiveNav() {
     } else {
         x.className = "topnav";
     }
-};
+}
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -37,22 +37,21 @@ function topFunction() {
 // document.getElementById("portBoxes").innerHTML = boxesPortofolio.repeat(2);
 
 //function for the forms
-email.addEventListener("input", function (event) {
+email.addEventListener("input", function () {
     if (email.validity.typeMismatch) {
         email.setCustomValidity("I expect an e-mail from you :) !");
-        } else {
-            email.setCustomValidity("");
-            }
-            });
+    } else {
+        email.setCustomValidity("");
+    }
+});
 
-
-phone.addEventListener("input", function (event) {
+phone.addEventListener("input", function () {
     if (phone.validity.patternMismatch) {
         phone.setCustomValidity("Dutch phone number, please :)");
-        } else {
-            phone.setCustomValidity("");
-            }
-            });
+    } else {
+        phone.setCustomValidity("");
+    }
+});
 
 // twitterName.addEventListener("input", function (event){
 //     if (twitterName.validity.patternMismatch) {
